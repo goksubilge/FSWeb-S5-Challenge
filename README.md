@@ -57,3 +57,5 @@ Aşağıdaki soruları yanıtlayarak bu sprint'in kavramlarını anladığınız
 3. Bir event dinleyici(listener) nedir?
 4. Neden bir NodeList'i Array'e dönüştürelim??
 5. Bileşen nedir?
+
+
