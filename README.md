@@ -62,3 +62,9 @@ Aşağıdaki soruları yanıtlayarak bu sprint'in kavramlarını anladığınız
 
 2. Bir sitenin içinde, kullanıcının her etkileşimi birer eventtir (olaydır). düğmeye tıklama, sürükleyip bırakma, tuşa basma ya da tuştan parmağını kaldırma vb.
 
+3. JavaScript'teki bir event listener, tıklama veya tuşa basma gibi kullanıcı etkileşimini bekler ve bu eylem gerçekleştiğinde kod çalıştırır.
+
+4. NodeLists ve Arrays iki farklı şeydir çünkü NodeLists aslında bir JavaScript API'si değil, bir tarayıcı API'sidir.
+
+querySelectorAll() ve getElementsByTagName() gibi şeyler JavaScript yöntemleri değildir, DOM öğelerine erişmenizi sağlayan tarayıcı API'leridir. Bunları JavaScript ile manipüle edebiliriz. Bu yüzden de array e dönüştürmemiz gerekir.
+
