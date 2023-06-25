@@ -58,4 +58,7 @@ Aşağıdaki soruları yanıtlayarak bu sprint'in kavramlarını anladığınız
 4. Neden bir NodeList'i Array'e dönüştürelim??
 5. Bileşen nedir?
 
+1. DOM ('Document Object Model'), belgenin içeriğinin belirli bir düzen içerisinde nesne olarak temsil edilmesini sağlayan bir modeldir. bir internet sayfası adresine gitmek istediğimizde, internet tarayıcısı bir web sayfasını açarken sunucuya ilk isteği gönderir ve sayfaya ait belge yükler. Bu modelde belge yapısında bulunan her bir nesne için bir düğüm bulunur. Bu nesneler kök bir düğüme bağlıdır. Servis, belgedeki nesneleri düğümlerden çözerek hiyerarşiye göre sayfanın içine yerleştirir ve site açılmış olur.
+
+2. Bir sitenin içinde, kullanıcının her etkileşimi birer eventtir (olaydır). düğmeye tıklama, sürükleyip bırakma, tuşa basma ya da tuştan parmağını kaldırma vb.
 

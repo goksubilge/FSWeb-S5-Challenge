@@ -4,22 +4,20 @@ const Header = (baslik, tarih, yazi) => {
 
   const spanDate = document.createElement("span");
   spanDate.classList.add("date")
-  spanDate.textContent = tarih;
-
+  
   const tekH1 = document.createElement("h1");
-  tekH1.textContent = baslik;
-
+  
   const spanTemp = document.createElement("span");
   spanTemp.classList.add("temp");
+
+  spanDate.textContent = tarih;
+  tekH1.textContent = baslik;
   spanTemp.textContent = yazi;
 
-  divHeader.appendChild("spanDate");
-  divHeader.appendChild("tekH1");
-  divHeader.appendChild("spanTemp");
+  divHeader.appendChild(spanDate);
+  divHeader.appendChild(spanTemp);
+  divHeader.appendChild(tekH1);
   return divHeader
-
-
-
   // GÖREV 1
   // ---------------------
   // Bu fonksiyon argüman olarak `baslik`, `tarih` ve `temp` alarak aşağıdaki yapıyı döndürecek.
@@ -34,9 +32,8 @@ const Header = (baslik, tarih, yazi) => {
   //
 }
 
-const headerEkleyici = (secici) => {
-  const headerOgeleri = document.querySelector(secici);
-  headerOgeleri.append(Header("Teknoloji Zamanı", "24.06.2023", "Güncel Blog"));
+const headerEkleyici = (secici) => {const headerOgeleri = document.querySelector(secici);
+  headerOgeleri.appendChild(Header("Teknoloji Zamanı", "24.06.2023", "Güncel Blog"));
   
   // GÖREV 2
   // ---------------------
